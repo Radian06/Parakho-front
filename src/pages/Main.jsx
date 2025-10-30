@@ -4,7 +4,7 @@ import Map from "../components/Map/Map";
 const Main = () => {
   return (
     <div className="main_page">
-      <h1>지도 페이지 (Leaflet + OSM)</h1>
+      <div className="main_title">독립운동가 관련 위치</div>
       <Map />
     </div>
   );
