@@ -1,9 +1,20 @@
+import ImcheonggakImg from "../img/imcheonggak.jpg";
+
 export const locationData = [
   {
     id: 1,
     title: "임청각 (Imcheonggak)",
     desc: (
       <>
+        <img
+          src={ImcheonggakImg}
+          alt="임청각 전경"
+          style={{
+            width: "20vw",
+            marginBottom: "10px",
+          }}
+        />
+        
         <h3>1. 기본 정보</h3>
         <p><b>📍 위치:</b> 경북 안동시 법흥동 20-3 (안동시 임청각길 63)</p>
         <p><b>🏛️ 지정문화재:</b> 보물 제182호</p>
