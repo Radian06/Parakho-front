@@ -4,9 +4,10 @@ const Header = () => {
   return (
     <div className="header_page">
       <div className="header_nav_box">
-        <div className="header_nav">지도 확인</div>
-        <div className="header_nav">지도 확인</div>
-        <div className="header_nav">지도 확인</div>
+        <div className="header_nav">페이지 소개</div>
+        <div className="header_nav">독립 운동 지도</div>
+        <div className="header_nav">장소 검색</div>
+        <div className="header_nav">로그인</div>
       </div>
     </div>
   );
