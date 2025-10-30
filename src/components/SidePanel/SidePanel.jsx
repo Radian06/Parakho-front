@@ -9,8 +9,8 @@ const SidePanel = ({ marker, onClose }) => {
       <button className="close-btn" onClick={onClose}>
         ×
       </button>
-      <h2>{marker.title}</h2>
-      <p>{marker.desc}</p>
+      <h1>{marker.title}</h1>
+      <div className="sidePanel_descBox">{marker.desc}</div>
     </div>
   );
 };

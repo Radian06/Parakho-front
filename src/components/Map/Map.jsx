@@ -3,7 +3,7 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./Map.css";
 import MarkerItem from "./MarkerIcon";
-import { markersData } from "../../data/markersData";
+import { locationData as markersData } from "../../data/markersData";
 import SidePanel from "../SidePanel/SidePanel";
 
 const center = [36.5683543, 128.729357];
