@@ -11,3 +11,16 @@
     font-size: 4vh;
     font-weight: bold;
 }
+
+.LocationList_listBox {
+    width: 88vw;
+    height: auto;
+    
+    background-color: antiquewhite;
+}
+
+.LocationList_table {
+    width: 88vw;
+    
+    background-color: aliceblue;
+}
