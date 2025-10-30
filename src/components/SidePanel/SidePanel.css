@@ -1,0 +1,31 @@
+.side-panel {
+  position: absolute;
+  top: 10vh;
+  right: 0;
+  width: 40vw;
+  height: 87.4vh;         /* 부모 높이에 맞춤 */
+  padding: 2vw;
+
+  background-color: #fff;
+  box-shadow: -0.5vw 0 1vw rgba(0, 0, 0, 0.2);
+
+  transform: translateX(100%); /* 화면 밖에서 시작 */
+  transition: transform 0.3s ease-in-out;
+
+  overflow-y: auto;     /* 내용 길면 스크롤 가능 */
+  z-index: 1000;        /* 지도보다 위에 */
+}
+
+.side-panel.open {
+  transform: translateX(0); /* 클릭 시 화면 안으로 들어옴 */
+}
+
+.side-panel .close-btn {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  cursor: pointer;
+  font-size: 2vw;
+  border: none;
+  background: none;
+}
