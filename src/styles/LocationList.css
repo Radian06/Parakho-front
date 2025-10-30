@@ -1,26 +1,51 @@
 .LocationList_page {
-    width: 88vw;
-    height: auto;
-    padding: 4vh 6vw;
-    margin: 0;
+  width: 88vw;
+  height: auto;
+  padding: 4vh 6vw;
+  margin: 0;
 }
 
 .LocationList_title {
-    margin-bottom: 2vh;
-    
-    font-size: 4vh;
-    font-weight: bold;
+  margin-bottom: 2vh;
+
+  font-size: 4vh;
+  font-weight: bold;
 }
 
 .LocationList_listBox {
-    width: 88vw;
-    height: auto;
-    
-    background-color: antiquewhite;
+  width: 88vw;
+  height: auto;
 }
 
 .LocationList_table {
-    width: 88vw;
-    
-    background-color: aliceblue;
+  width: 88vw;
+
+  border: 0.2vh solid #444;
+  border-collapse: collapse;
+}
+
+.LocationList_table th {
+  height: 4.5vh;
+
+  background-color: #696963;
+  border-bottom: 0.4vh solid #bbb;
+  font-size: 2vh;
+  color: white;
+}
+
+.LocationList_table td {
+  height: 4vh;
+
+  border-bottom: 0.2vh solid #bbb;
+  font-size: 1.8vh;
+}
+
+.LocationList_table td:first-child, 
+.LocationList_table td:nth-child(2), 
+.LocationList_table td:nth-child(3) {
+  text-align: center;
+}
+
+.LocationList_table tr:hover {
+  background-color: #fafafa;
 }
