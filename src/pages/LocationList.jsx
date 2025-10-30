@@ -4,7 +4,7 @@ import { locationData } from "../data/locationData";
 const LocationList = () => {
   return (
     <div className="LocationList_page">
-      <div className="LocationList_title">독립 관련 장소 리스트</div>
+      <div className="LocationList_title">독립 관련 장소 목록</div>
       <div className="LocationList_listBox">
         <table className="LocationList_table">
           <thead>
