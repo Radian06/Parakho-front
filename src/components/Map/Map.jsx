@@ -13,12 +13,12 @@ L.Icon.Default.mergeOptions({
 });
 
 // 지도 초기 위치
-const center = [37.5665, 126.9780]; // 서울
+const center = [36.5683543, 128.729357];
 
 // 예시 마커 데이터
 const markersData = [
-    { id: 1, position: [37.5665, 126.9780], title: "서울 시청" },
-    { id: 2, position: [37.5796, 126.9770], title: "경복궁" },
+    { id: 1, position: [36.5652131, 128.7448513], title: "임청각" },
+    { id: 2, position: [36.6222, 128.8565], title: "향산고택" },
 ];
 
 const Map = () => {
